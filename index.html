@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Your Codes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Try Your Codes</h1>
+    </div>
+</header>
+
+<main>
+    <p>Hello, here you can run your code, just select your programming language.</p>
+    
+    <label for="python">Python:</label>
+    <input type="radio" id="python" name="language" value="python">
+    
+    <label for="javascript">JavaScript:</label>
+    <input type="radio" id="javascript" name="language" value="javascript">
+    
+    <label for="cpp">C++:</label>
+    <input type="radio" id="cpp" name="language" value="cpp">
+    
+    <br><br>
+    <label for="code">Enter Your Program:</label><br>
+    <textarea id="code" placeholder="Write your code here..."></textarea>
+
+    <br><br>
+    <button onclick="runCode()">Run</button>
+    
+    <div class="output">
+        <h3>Output:</h3>
+        <pre id="output"></pre>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Try Your Codes Website All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
